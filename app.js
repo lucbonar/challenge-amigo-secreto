@@ -37,9 +37,13 @@ function agregarAmigo() {
 
 function sortearAmigo() {
     limpiarLista();
+    // obtengo el tamaño de la lista
     let tamañoLista = amigos.length;
+    //Verifico que la lista no este vacía
     if (tamañoLista != 0) {
-        let amigoSorteado = Math.floor(Math.random() * tamañoLista);
+        //Genera un indice aleatorio
+        let indiceSorteado = Math.floor(Math.random() * tamañoLista);
+        let amigoSorteado = amigos[indiceSorteado];
         return
     }
     
