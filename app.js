@@ -39,7 +39,7 @@ function sortearAmigo() {
     limpiarLista();
     let tamañoLista = amigos.length;
     if (tamañoLista != 0) {
-        
+        let amigoSorteado = Math.floor(Math.random() * tamañoLista);
         return
     }
     
